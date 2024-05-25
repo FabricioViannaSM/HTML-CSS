@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse sitem em vários tamanhos diferentes, ou, simplesmente aumente e diminua o tamanho da janela.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="image/imagem-p.png">
+        <source media="(max-width: 1050px)" srcset="image/imagem-m.png">
+        <img src="image/imagem-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios no HTML5</p>
+    <!--Formatos compatíveis = MP3, WAV, OGG-->
+
+    <audio preload="none" controls autoplay loop>
+        <source src="media/Silent Night (Jazz) - E's Jammy Jams.mp3" type="audio/mpeg">
+        <source src="media/Silent Night (Jazz) - E's Jammy Jams.ogg" type="audio/ogg">
+        <source src="media/Silent Night (Jazz) - E's Jammy Jams.wav" type="audio/wav">
+        <p>Seu navegador não suporta audio<a href="media/Silent Night (Jazz) - E's Jammy Jams.mp3" download="Silent Night (Jazz) - E's Jammy Jams.mp3" type="audio/mpeg"></a></p>
+    </audio>
+</body>
+</html>
