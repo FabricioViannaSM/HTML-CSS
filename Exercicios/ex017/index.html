@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image:linear-gradient(-45deg, #2a5adf, #2a97df, #2ad3df);
+            margin: 0;
+        }
+        header{
+            background-color: whitesmoke;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+        }
+        header > h1{
+            text-align: center;
+        }
+        nav{
+            background-color: rgb(58, 58, 58);
+            border-radius: 10px;
+            padding: 3px;
+            box-shadow:-5px 5px 10px 0px rgba(0, 0, 0, 0.589)
+        }
+        nav > a{
+            border-radius: 10px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        main{
+            background-color: whitesmoke;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: lightgray;
+            border-radius: 10px;
+            padding: 5px;
+            margin: 5px 0px;
+        }
+
+
+        article > aside{
+            background-color: gray;
+            border-radius: 10px;
+            padding: 0px 5px;
+        }
+        footer{
+            color:whitesmoke;
+            background-color: rgb(0, 0, 0);
+            padding: 5px;
+            margin: 0px ;
+            text-align: center;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Economia Cultura</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, ipsam ipsa praesentium doloremque sequi quas soluta fugit odio omnis in minus labore, recusandae quo! Aut tenetur ex nihil voluptas repudiandae?</p>
+                <aside>
+                    <p>Autor: João Ferreira Almeida</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Outras notícias sobre o Lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo at sapiente, voluptate esse assumenda vel voluptatem pariatur magni? Eum totam, obcaecati nihil eveniet reprehenderit quas beatae. Totam alias reiciendis est?</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Fabricio Vianna<p>
+    </footer>
+</body>
+</html>
