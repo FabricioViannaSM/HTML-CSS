@@ -12,6 +12,14 @@
             background-color: white;
             padding: 20px;
             border-radius:10px;
+
+            min-width: 250px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        img{
+            width:100%;
         }
     </style>
 </head>
@@ -19,7 +27,10 @@
     <main>
         <h1>Testando Responsividade</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, voluptate ut omnis architecto quasi ducimus delectus necessitatibus placeat. Sapiente eaque illo inventore animi eum tempore vitae maxime suscipit quod delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quos deleniti aperiam, cupiditate consequatur nihil perspiciatis sint ex tenetur quia voluptates temporibus suscipit reiciendis fugiat modi eius. Nobis, enim consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa commodi beatae delectus qui, totam hic saepe assumenda, modi adipisci porro ut expedita distinctio a quidem nihil et ex alias quos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quisquam necessitatibus ab, doloremque eius et amet vel voluptatibus a labore unde quasi iste alias excepturi, ex provident illum, corporis tempora.</p>
-        <img src="imagens/irina-blok.jpg" alt="irina-blok">
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="irina-blok">
+        </picture>
     </main>
 </body>
 </html>
