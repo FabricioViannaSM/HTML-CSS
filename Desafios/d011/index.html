@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagem de fundo</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        body{
+            background-image: url(imagens/espaco.jpg);
+            /*background-repeat:no-repeat;*/
+            background-size: cover;
+            width: 100%;
+        }
+        .colagem{
+            position:absolute;
+            top: 50%;
+            left:50%;
+            display: flex;
+            justify-content: center;
+
+        }
+    </style>
+</head>
+<body>
+    <picture>
+        <img src="imagens/astronauta.png" alt="imagem astronauta" class="colagem">
+
+    </picture>
+</body>
+</html>
