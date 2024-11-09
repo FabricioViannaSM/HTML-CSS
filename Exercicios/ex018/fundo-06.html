@@ -6,16 +6,24 @@
     <title>Tamanho da Imagem</title>
     <style>
         body{
-            height: 100vh;
+            /* height: 100vh;
             background-color: #000000;
             background-image:url("imagens/wallpaper002.jpg");
             background-position: center center;
             background-repeat: no-repeat;
+
+            background-attachment: fixed; */
+
+            background: black url("https://raw.githubusercontent.com/FabricioViannaSM/HTML-CSS/refs/heads/main/Exercicios/ex018/Imagens/wallpaper002.jpg") center center no-repeat fixed;
+            
             background-size: cover;
+            /*
+            Shorthand - background: color > image> position > repeat> {size} > attachment
+            */
         }
         main{
             background-color:white;
-            width: 400px;
+            max-width: 400px;
             padding:10px;
             margin:auto;
             border: 2px solid black;
@@ -26,7 +34,7 @@
 <body>
     <main>
         <h1>Teste de Imagem de fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo reiciendis odit, dolorem quisquam quasi laborum vel quos eius illum voluptas dolores, dicta corporis tempora sint ducimus iure consequuntur quas facilis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia totam dolores ipsum ex repellat rerum inventore omnis a nobis excepturi dignissimos voluptatibus sed aliquam, iste optio, aperiam delectus consectetur tempora.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo reiciendis odit, dolorem quisquam quasi laborum vel quos eius illum voluptas dolores, dicta corporis tempora sint ducimus iure consequuntur quas facilis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia totam dolores ipsum ex repellat rerum inventore omnis a nobis excepturi dignissimos voluptatibus sed aliquam, iste optio, aperiam delectus consectetur tempora.Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo reiciendis odit, dolorem quisquam quasi laborum vel quos eius illum voluptas dolores, dicta corporis tempora sint ducimus iure consequuntur quas facilis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia totam dolores ipsum ex repellat rerum inventore omnis a nobis excepturi dignissimos voluptatibus sed aliquam, iste optio, aperiam delectus consectetur tempora.Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo reiciendis odit, dolorem quisquam quasi laborum vel quos eius illum voluptas dolores, dicta corporis tempora sint ducimus iure consequuntur quas facilis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia totam dolores ipsum ex repellat rerum inventore omnis a nobis excepturi dignissimos voluptatibus sed aliquam, iste optio, aperiam delectus consectetur tempora.Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo reiciendis odit, dolorem quisquam quasi laborum vel quos eius illum voluptas dolores, dicta corporis tempora sint ducimus iure consequuntur quas facilis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia totam dolores ipsum ex repellat rerum inventore omnis a nobis excepturi dignissimos voluptatibus sed aliquam, iste optio, aperiam delectus consectetur tempora.</p>
     </main>
 </body>
 </html>
