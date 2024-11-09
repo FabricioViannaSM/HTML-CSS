@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+    padding:0px
+}
+header{
+    background: black;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 10px 0px;
+}
+main{
+    margin: 0 20px;
+}
+.texto{
+    background: white center center fixed;
+    background-size: 400px 100%;
+}
+.texto > p{
+    padding-bottom: 30px;
+    font-size: 3em;
+}
+.imagem{
+    background: black;
+}
+.imagem-texto{
+    background: rgba(104, 104, 104, 0.664) ;
+}
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+
+}
